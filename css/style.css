@@ -1,0 +1,43 @@
+*{
+    margin: 0; 
+    padding: 0;}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    background-color: rgb(87, 62, 62);
+}
+.pagetitle{
+    color:white;
+    font-size: large;
+}
+.links a{
+    padding-left: 1vw;
+    font-size: large;
+}
+
+#vidbg{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+
+}
+.banner{
+    background-color: rgba(82, 78, 78, 0.671);
+    display: block;
+    padding: 10vw;
+    background-position: center;
+
+}
+
+.icon{
+    backkground: url()
+}
